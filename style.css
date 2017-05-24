@@ -78,16 +78,21 @@ nav {
 
 .content {
   padding: 30px;
+  margin-top: 30px;
 }
 
 .content-box {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 30px;
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .content-center {
   text-align: center;
   padding: 30px;
+  margin-top: 30px;
 }
 
 .content-title {
@@ -98,6 +103,14 @@ nav {
 
 .grid {
   margin-top: 50px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-2 {
+  padding: 10px 30px;
   display: -webkit-flex;
   display: flex;
   justify-content: center;
@@ -118,6 +131,11 @@ nav {
   border-radius: 50%;
   display: block;
   margin: auto;
+}
+
+.spaced-block {
+  padding: 10px;
+  margin: 10px;
 }
 
 .red-button {
@@ -147,6 +165,16 @@ nav {
   border-radius: 12%;
 }
 
+.icon {
+  width: 100px;
+  line-height: 120px;
+  vertical-align: middle;
+}
+
 .hidden {
   visibility: hidden;
+}
+
+.gray-button {
+  background-color: lightgray;
 }
