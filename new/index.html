@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"> </script>
+</head>
+
+<!-- Note that CodePen.io overrides the Window.open() function, so if you want to open windows using jQuery, you will need to target invisible anchor elements like this one: <a target='_blank'> -->
+
+<body data-spy="scroll" data-target="#navs" data-offset="50">
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-success fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="#">
+      <img class="rounded-circle text-center" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1267336/profile/profile-512.jpg" width="30" height="30" alt="">
+      Greg Wong
+    </a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <div id="navs">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="about"></div>
+  <div class="container pt-5 light-border">
+    <!-- <div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div> -->
+    <div class="row py-5 about">
+      <div class="col-md-6 col-lg-8 my-auto">
+        <div class="py-4 text-center">
+          <h1 class="text-muted text-md-left px-4">
+            Hi, I’m Greg!
+          </h1>
+          <h4 class="text-muted text-md-left px-4">
+            I’m excited by new technologies that might significantly change the way we live our lives.
+          </h4>
+          <hr />
+          <h4 class="text-muted text-md-left px-4">
+            Right now, I’m taking a MOOC on <a href="https://mooc.jmsc.hku.hk/" target="_blank">data journalism</a>. I am also taking courses on machine learning offered on <a href="https://www.coursera.org/specializations/machine-learning" target="_blank">Coursera</a>. Someday, I hope to utilize artificial intelligence in the work I do.
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 my-auto text-center">
+        <img class="rounded-circle" width="250" height="250" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1267336/profile/profile-512.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio"></div>
+  <div class="container pt-5 pb-3 portfolio">
+    <div class="row justify-content-center py-4">
+      <div class="col-6 text-center">
+        <h1 class="text-white">My Projects</h1>
+        <hr />
+      </div>
+    </div>
+    <div class="row px-3">
+      <div class="col-12 col-lg-6 py-3 text-center">
+        <img class="img-fluid" src="http://placehold.it/1280x720" alt="">
+      </div>
+      <div class="col-12 col-lg-6 py-3 text-center">
+        <img class="img-fluid" src="http://placehold.it/1280x720" alt="">
+      </div>
+    </div>
+    <div class="row px-3">
+      <div class="col-12 col-lg-6 py-3 text-center">
+        <img class="img-fluid" src="http://placehold.it/1280x720" alt="">
+      </div>
+      <div class="col-12 col-lg-6 py-3 text-center">
+        <img class="img-fluid" src="http://placehold.it/1280x720" alt="">
+      </div>
+      <div class="col-12 col-lg-6 py-3 text-center">
+        <img class="img-fluid" src="http://placehold.it/1280x720" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div id="contact-me"></div>
+  <div class="container py-5 contact-me light-border">
+    <div class="row justify-content-center pt-4">
+      <div class="col-6 text-center">
+        <h1 class="text-muted">Get in Touch</h1>
+        <hr />
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-8 text-center">
+        <p class="text-muted">
+          Do you have a request or feedback? Or maybe you want to collaborate or hire me or something?
+        </p>
+        <h4>
+          Well, I’m all ears!
+        </h4>
+      </div>
+    </div>
+    <div class="row justify-content-center py-4">
+      <div class="col-3 text-center">
+        <a class="text-muted" href="mailto:Gregory.LT.Wong@gmail.com">
+          <i class="fa fa-envelope fa-5x"></i>
+        </a>
+      </div>
+      <div class="col-3 text-center">
+        <a class="text-muted" href="https://github.com/gregorywong" target="_blank">
+          <i class="fa fa-github fa-5x"></i>
+        </a>
+      </div>
+      <div class="col-3 text-center">
+        <a class="text-muted" href="https://www.linkedin.com/in/gregorylwong/" target="_blank">
+          <i class="fa fa-linkedin-square fa-5x"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container py-4 footer">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h3 class="text-white my-auto">Written and coded by Greg Wong</h3>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
