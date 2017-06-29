@@ -27,6 +27,25 @@ hr {
   background-color: #71C171;
 }
 
+.img-link-container {
+  overflow: hidden;
+  background-color: black;
+}
+
+.img-link {
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+
+.img-link:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05); /* Safari and Chrome */
+  -moz-transform: scale(1.05); /* Firefox */
+  -ms-transform: scale(1.05); /* IE 9 */
+  -o-transform: scale(1.05); /* Opera */
+  transform: scale(1.05);
+}
+
 .contact-me, .footer {
   background-color: #f0ad4e;
 }
